@@ -14,5 +14,5 @@ let num = 0;
 // 変数numをインデックスに代入し、15になるまでコンソールに出力
 while(num <= 15){
 	console.log(holidays[num]);
-	num = num + 1;
+	num++;
 }
