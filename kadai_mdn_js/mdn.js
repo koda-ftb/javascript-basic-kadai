@@ -3,7 +3,8 @@ const date = new Date();
 // 年月日を取得
 const [year, month, day] = [
   date.getFullYear(),
-	date.getMonth(),
+  date.getMonth() + 1,
+      // getMonthは0-11を返されるので+1する
   date.getDate(),
 ];
 
